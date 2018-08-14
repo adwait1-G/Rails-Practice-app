@@ -64,5 +64,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Uglifier
 gem 'uglifier', '>= 1.3.0'
 
+group:production do
+	gem 'pg', '0.20.0'
+end
 
 
